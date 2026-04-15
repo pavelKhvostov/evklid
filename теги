@@ -1,0 +1,255 @@
+e93e7534-c0bb-4822-bc3b-78330e744d72;LoroPaymentChargeServiceStartMessage	Сервис взимания комиссий	"dkzOpenRegisterDebitorDebtOperation
+OpenAccountOperationDto"	Операция УДКЗ. Открытие регистра ДЗ
+e93e7534-c0bb-4822-bc3b-78330e744d72;LoroPaymentChargeServiceStartMessage	Сервис взимания комиссий	"dkzreserveProductAccounts
+reserveProductAccounts"	Операция УДКЗ. Резервирование счета
+e93e7534-c0bb-4822-bc3b-78330e744d72;LoroPaymentChargeServiceStartMessage	Сервис взимания комиссий	"dkzDebtOpenReservedAccountOperation
+OpenReservedAccountOperationDto"	Операция УДКЗ. Открытие зарезервированного счета
+e93e7534-c0bb-4822-bc3b-78330e744d72;LoroPaymentChargeServiceStartMessage	Сервис взимания комиссий	"dkzDebtCancelReservedAccountOperation
+cancelReservedAccount"	Операция УДКЗ. Аннулирование зарезервированного счета
+e93e7534-c0bb-4822-bc3b-78330e744d72;LoroPaymentChargeServiceStartMessage	Сервис взимания комиссий	dkzDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре Дебиторская задолженность
+e93e7534-c0bb-4822-bc3b-78330e744d72;LoroPaymentChargeServiceStartMessage	Сервис взимания комиссий	dkzDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Дебиторская задолженность
+e93e7534-c0bb-4822-bc3b-78330e744d72;LoroPaymentChargeServiceStartMessage	Сервис взимания комиссий	dkzSourceProductRepaymentTermOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Просроченная ДЗ по сроку, установленному ПФ
+e93e7534-c0bb-4822-bc3b-78330e744d72;LoroPaymentChargeServiceStartMessage	Сервис взимания комиссий	dkzReverseDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Сторно увеличения суммы на регистре Дебиторская задолженность
+e93e7534-c0bb-4822-bc3b-78330e744d72;LoroPaymentChargeServiceStartMessage	Сервис взимания комиссий	dkzCloseRegistersAndRepaymentProductDebitorDebtOperation	Операция УДКЗ. Закрытие регистров ДЗ и НДС и погашение продукта ДЗ
+LoroPaymentHandService;LoroPaymentHandServiceStartMessage	комиссия (корректировка)	dkzDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре ДЗ
+LoroPaymentHandService;LoroPaymentHandServiceStartMessage	комиссия (корректировка)	LoroPaymentChargeFixOperationType	Уменьшение основного регистра Лоро на сумму комиссии
+LoroPaymentHandService;LoroPaymentHandServiceStartMessage	комиссия (корректировка)	dkzDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре ДЗ
+LoroPaymentHandService;LoroPaymentHandServiceStartMessage	комиссия (корректировка)	dkzSourceProductRepaymentTermOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Просроченная ДЗ по сроку, установленному ПФ
+LoroPaymentHandService;LoroPaymentHandServiceStartMessage	комиссия (корректировка)	dkzReverseDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Сторно увеличения суммы на регистре Дебиторская задолженность
+LoroPaymentHandService;LoroPaymentHandServiceStartMessage	комиссия (корректировка)	dkzDebitorDebtRegisterIncreaseReturnBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре Дебиторская задолженность (возврат)
+LoroPaymentHandService;LoroPaymentHandServiceStartMessage	комиссия (корректировка)	dkzSourceProductRepaymentTermOverdueDebitorDebtRegisterIncreaseReturnBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре Просроченная ДЗ по сроку, установленному ПФ  (возврат)
+LoroPaymentHandService;LoroPaymentHandServiceStartMessage	комиссия (корректировка)	LoroPaymentHandChargeFixInOperationType	Увеличение основного регистра Лоро на сумму комиссии
+LoroPaymentHandService;LoroPaymentHandServiceStartMessage	комиссия (корректировка)	dkzCancelRegisterAndReverseDebitorDebtProductOperation	Операция УДКЗ. Закрытие регистров и сторно продукта ДЗ
+SP-T-FinInstFeeRkoDemand-Overdue	Сценарий Вынос на просрочку ДЗ - Требования к КО в оплату комиссии за РКО	"dkzOpenSourceProductRepaymentTermOverdueDebitorDebtRegisterOperation
+OpenAccountOperationDto"	Операция УДКЗ. Открытие регистра Просроченной ДЗ по сроку, установленному ПФ
+SP-T-FinInstFeeRkoDemand-Overdue	Сценарий Вынос на просрочку ДЗ - Требования к КО в оплату комиссии за РКО	"dkzreserveProductAccounts
+reserveProductAccounts"	Операция УДКЗ. Резервирование счета
+SP-T-FinInstFeeRkoDemand-Overdue	Сценарий Вынос на просрочку ДЗ - Требования к КО в оплату комиссии за РКО	"dkzDebtOpenReservedAccountOperation
+OpenReservedAccountOperationDto"	Операция УДКЗ. Открытие зарезервированного счета
+SP-T-FinInstFeeRkoDemand-Overdue	Сценарий Вынос на просрочку ДЗ - Требования к КО в оплату комиссии за РКО	"dkzDebtCancelReservedAccountOperation
+cancelReservedAccount"	Операция УДКЗ. Аннулирование зарезервированного счета
+SP-T-FinInstFeeRkoDemand-Overdue	Сценарий Вынос на просрочку ДЗ - Требования к КО в оплату комиссии за РКО	dkzDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Дебиторская задолженность
+SP-T-FinInstFeeRkoDemand-Overdue	Сценарий Вынос на просрочку ДЗ - Требования к КО в оплату комиссии за РКО	dkzSourceProductRepaymentTermOverdueDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре Просроченная ДЗ по сроку, установленному ПФ
+SP-T-ChangeAmountsReserve	Сценарий Расчет резерва	"alloOpenProductRegisterReserveOperation
+(OpenAccountOperationDto)"	Операция УДКЗ. Открытие продуктового регистра
+SP-T-ChangeAmountsReserve	Сценарий Расчет резерва	alloIncreaseProductRegisterReserveOperation	Операция УДКЗ. Увеличение суммы на продуктовом регистре 
+SP-T-ChangeAmountsReserve	Сценарий Расчет резерва	alloDecreaseProductRegisterReserveOperation	Операция УДКЗ. Уменьшение суммы на продуктовом регистре 
+SP-T-ChangeAmountsReserve	Сценарий Расчет резерва	alloCloseProductRegisterReserveOperation	Операция УДКЗ. Закрытие продуктового регистра
+SP-T-TransferScheduleFromPOTInGOT	Сценарий Перенос по расписанию из ПОТ в ГОТ и обратно	"alloOpenProductRegisterReserveOperation
+(OpenAccountOperationDto)"	Операция УДКЗ. Открытие продуктового регистра
+SP-T-TransferScheduleFromPOTInGOT	Сценарий Перенос по расписанию из ПОТ в ГОТ и обратно	alloIncreaseProductRegisterReserveOperation	Операция УДКЗ. Увеличение суммы на продуктовом регистре 
+SP-T-TransferScheduleFromPOTInGOT	Сценарий Перенос по расписанию из ПОТ в ГОТ и обратно	alloDecreaseProductRegisterReserveOperation	Операция УДКЗ. Уменьшение суммы на продуктовом регистре 
+SP-T-TransferScheduleFromPOTInGOT	Сценарий Перенос по расписанию из ПОТ в ГОТ и обратно	alloCloseProductRegisterReserveOperation	Операция УДКЗ. Закрытие продуктового регистра
+SP-T-TransferDZOnPDZ	Перенос со счета резерва срочной задолженности на счет резерва просроченной задолженности	"alloOpenProductRegisterReserveOperation
+(OpenAccountOperationDto)"	Операция УДКЗ. Открытие продуктового регистра
+SP-T-TransferDZOnPDZ	Перенос со счета резерва срочной задолженности на счет резерва просроченной задолженности	alloIncreaseProductRegisterReserveOperation	Операция УДКЗ. Увеличение суммы на продуктовом регистре 
+SP-T-TransferDZOnPDZ	Перенос со счета резерва срочной задолженности на счет резерва просроченной задолженности	alloDecreaseProductRegisterReserveOperation	Операция УДКЗ. Уменьшение суммы на продуктовом регистре 
+SP-T-TransferDZOnPDZ	Перенос со счета резерва срочной задолженности на счет резерва просроченной задолженности	alloCloseProductRegisterReserveOperation	Операция УДКЗ. Закрытие продуктового регистра
+SP-T-TransferScheduleFromGroup 	Перенос из группы Несущественные в Существенные и обратно	"alloOpenProductRegisterReserveOperation
+(OpenAccountOperationDto)"	Операция УДКЗ. Открытие продуктового регистра
+SP-T-TransferScheduleFromGroup 	Перенос из группы Несущественные в Существенные и обратно	alloIncreaseProductRegisterReserveOperation	Операция УДКЗ. Увеличение суммы на продуктовом регистре 
+SP-T-TransferScheduleFromGroup 	Перенос из группы Несущественные в Существенные и обратно	alloDecreaseProductRegisterReserveOperation	Операция УДКЗ. Уменьшение суммы на продуктовом регистре 
+SP-T-TransferScheduleFromGroup 	Перенос из группы Несущественные в Существенные и обратно	alloCloseProductRegisterReserveOperation	Операция УДКЗ. Закрытие продуктового регистра
+SP-T-DamageDebtProduct-InternalInvestigationComplete	Сценарий перенос ДЗ на виновное лицо. Ущербы, причиненные банку 	"dkzreserveProductAccounts
+reserveProductAccounts"	Операция УДКЗ. Резервирование счета
+SP-T-DamageDebtProduct-InternalInvestigationComplete	Сценарий перенос ДЗ на виновное лицо. Ущербы, причиненные банку 	"dkzDebtOpenReservedAccountOperation
+OpenReservedAccountOperationDto"	Операция УДКЗ. Открытие зарезервированного счета
+SP-T-DamageDebtProduct-InternalInvestigationComplete	Сценарий перенос ДЗ на виновное лицо. Ущербы, причиненные банку 	"dkzDebtCancelReservedAccountOperation
+cancelReservedAccount"	Операция УДКЗ. Аннулирование зарезервированного счета
+SP-T-DamageDebtProduct-InternalInvestigationComplete	Сценарий перенос ДЗ на виновное лицо. Ущербы, причиненные банку 	dkzOverdueDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре Просроченная ДЗ по сроку, рассчитанному УДКЗ
+SP-T-DamageDebtProduct-InternalInvestigationComplete	Сценарий перенос ДЗ на виновное лицо. Ущербы, причиненные банку 	dkzOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Просроченная ДЗ по сроку, рассчитанному УДКЗ
+SP-T-DamageDebtProduct-InternalInvestigationComplete	Сценарий перенос ДЗ на виновное лицо. Ущербы, причиненные банку 	dkzCloseRegistersAndRepaymentProductDebitorDebtOperation	Операция УДКЗ. Закрытие регистров ДЗ и НДС и погашение продукта ДЗ
+SP-T-DamageDebtProduct-Netting	Сценарий взаимозачет ДЗ и КЗ. (Ущербы, причиненные банку и Излишки денежной наличности)	dkzOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Просроченная ДЗ по сроку, рассчитанному УДКЗ
+SP-T-DamageDebtProduct-Netting	Сценарий взаимозачет ДЗ и КЗ. (Ущербы, причиненные банку и Излишки денежной наличности)	dkzDebtUpdateDummyDecreaseActiveAccountOperation	Операция УДКЗ. Фиктивная операция  уменьшения суммы на активном счете-корреспонденте 
+SP-T-DamageDebtProduct-Netting	Сценарий взаимозачет ДЗ и КЗ. (Ущербы, причиненные банку и Излишки денежной наличности)	dkzLoanDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Кредиторская задолженность
+SP-T-DamageDebtProduct-Netting	Сценарий взаимозачет ДЗ и КЗ. (Ущербы, причиненные банку и Излишки денежной наличности)	dkzDebtUpdateDummyDecreasePassiveAccountOperation	Операция УДКЗ. Фиктивная операция уменьшения суммы на пассивном счете-корреспонденте 
+SP-T-DamageDebtProduct-Netting	Сценарий взаимозачет ДЗ и КЗ. (Ущербы, причиненные банку и Излишки денежной наличности)	dkzCloseRegistersAndRepaymentProductLoanDebtOperation	Операция УДКЗ. Закрытие регистров КЗ и погашение продукта КЗ
+SP-T-DamageDebtProduct-Netting	Сценарий взаимозачет ДЗ и КЗ. (Ущербы, причиненные банку и Излишки денежной наличности)	dkzCloseRegistersAndRepaymentProductDebitorDebtOperation	Операция УДКЗ. Закрытие регистров ДЗ и НДС и погашение продукта ДЗ
+SP-T-DamageDebtProduct-RepaymentSpecialSolution	Сценарий погашения Ущербы/недостачи (ДЗ) до выяснения принадлежности (временное решение)	dkzOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Просроченная ДЗ по сроку, рассчитанному УДКЗ
+SP-T-DamageDebtProduct-RepaymentSpecialSolution	Сценарий погашения Ущербы/недостачи (ДЗ) до выяснения принадлежности (временное решение)	dkzDebtUpdateDummyFictionDebtOperation	Операция УДКЗ. Фиктивная операция для счета-корреспондента по дебету
+SP-T-DamageDebtProduct-RepaymentSpecialSolution	Сценарий погашения Ущербы/недостачи (ДЗ) до выяснения принадлежности (временное решение)	dkzCloseRegistersAndRepaymentProductDebitorDebtOperation	Операция УДКЗ. Закрытие регистров ДЗ и НДС и погашение продукта ДЗ
+SP-T-ShortageDebtProduct-RepaymentSpecialSolution	Сценарий погашения Ущербы/недостачи (ДЗ) при установлении вины сотрудника (временное решение)	dkzOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Просроченная ДЗ по сроку, рассчитанному УДКЗ
+SP-T-ShortageDebtProduct-RepaymentSpecialSolution	Сценарий погашения Ущербы/недостачи (ДЗ) при установлении вины сотрудника (временное решение)	dkzDebtUpdateDummyFictionDebtOperation	Операция УДКЗ. Фиктивная операция для счета-корреспондента по дебету
+SP-T-ShortageDebtProduct-RepaymentSpecialSolution	Сценарий погашения Ущербы/недостачи (ДЗ) при установлении вины сотрудника (временное решение)	dkzCloseRegistersAndRepaymentProductDebitorDebtOperation	Операция УДКЗ. Закрытие регистров ДЗ и НДС и погашение продукта ДЗ
+SP-T-SurplusLoanDebtProduct-RepaymentSpecialSolution	Сценарий погашения излишка (КЗ) (временное решение)	dkzLoanDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Кредиторская задолженность
+SP-T-SurplusLoanDebtProduct-RepaymentSpecialSolution	Сценарий погашения излишка (КЗ) (временное решение)	dkzDebtUpdateDummyFictionLoanOperation	Операция УДКЗ. Фиктивная операция для счета-корреспондента по кредиту
+SP-T-SurplusLoanDebtProduct-RepaymentSpecialSolution	Сценарий погашения излишка (КЗ) (временное решение)	"dkzCloseRegistersAndRepaymentProductLoanDebtOperation
+"	Операция УДКЗ. Закрытие регистров КЗ и погашение продукта КЗ
+SP-T-LoanDebtProduct-RepaymentSpecialSolution	Сценарий погашения КЗ (временное решение)	dkzLoanDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Кредиторская задолженность
+SP-T-LoanDebtProduct-RepaymentSpecialSolution	Сценарий погашения КЗ (временное решение)	dkzDebtUpdateDummyFictionLoanOperation	Операция УДКЗ. Фиктивная операция для счета-корреспондента по кредиту
+SP-T-LoanDebtProduct-RepaymentSpecialSolution	Сценарий погашения КЗ (временное решение)	"dkzCloseRegistersAndRepaymentProductLoanDebtOperation
+"	Операция УДКЗ. Закрытие регистров КЗ и погашение продукта КЗ
+SP-T-CorrectSettlement	Сценарий корректировки урегулирования ДЗ и КЗ	"dkzreserveProductAccounts
+reserveProductAccounts"	Операция УДКЗ. Резервирование счета
+SP-T-CorrectSettlement	Сценарий корректировки урегулирования ДЗ и КЗ	"dkzDebtOpenReservedAccountOperation
+OpenReservedAccount"	Операция УДКЗ. Открытие зарезервированного счета
+SP-T-CorrectSettlement	Сценарий корректировки урегулирования ДЗ и КЗ	"dkzDebtCancelReservedAccountOperation
+cancelReservedAccount"	Операция УДКЗ. Аннулирование зарезервированного счета
+SP-T-CorrectSettlement	Сценарий корректировки урегулирования ДЗ и КЗ	dkzReverseOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Сторно уменьшения суммы на регистре Просроченная ДЗ по сроку, рассчитанному УДКЗ
+SP-T-CorrectSettlement	Сценарий корректировки урегулирования ДЗ и КЗ	dkzDebtUpdateDummyForReverseIncreaseActiveAccountOperation	Операция УДКЗ. Фиктивная операция  увеличения суммы на активном счете-корреспонденте (сторно)
+SP-T-CorrectSettlement	Сценарий корректировки урегулирования ДЗ и КЗ	dkzReverseSurplusLoanDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Сторно уменьшения суммы на регистре Кредиторская задолженность
+SP-T-CorrectSettlement	Сценарий корректировки урегулирования ДЗ и КЗ	dkzDebtUpdateDummyIncreasePassiveAccountOperation	Операция УДКЗ. Фиктивная операция увеличения суммы на пассивном счете-корреспонденте 
+SP-T-CorrectSettlement	Сценарий корректировки урегулирования ДЗ и КЗ	dkzReverseOverdueDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Сторно увеличения суммы на регистре Просроченная ДЗ по сроку, рассчитанному УДКЗ
+SP-T-CorrectSettlement	Сценарий корректировки урегулирования ДЗ и КЗ	dkzLoanDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Кредиторская задолженность
+SP-T-CorrectSettlement	Сценарий корректировки урегулирования ДЗ и КЗ	dkzDebtUpdateDummyDecreasePassiveAccountOperation	Операция УДКЗ. Фиктивная операция уменьшения суммы на пассивном счете-корреспонденте 
+SP-T-CorrectSettlement	Сценарий корректировки урегулирования ДЗ и КЗ	dkzOverdueDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре Просроченная ДЗ по сроку, рассчитанному УДКЗ
+SP-T-CorrectSettlement	Сценарий корректировки урегулирования ДЗ и КЗ	dkzOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Просроченная ДЗ по сроку, рассчитанному УДКЗ
+SP-T-CorrectSettlement	Сценарий корректировки урегулирования ДЗ и КЗ	dkzCloseRegistersAndRepaymentProductDebitorDebtOperation	Операция УДКЗ. Закрытие регистров ДЗ и НДС и погашение продукта ДЗ
+SP-T-CorrectSettlement	Сценарий корректировки урегулирования ДЗ и КЗ	dkzDebtUpdateDummyDecreaseActiveAccountOperation	Операция УДКЗ. Фиктивная операция  уменьшения суммы на активном счете-корреспонденте 
+SP-T-DebtWriteOff	Сценарий списание задолженности за счет РВП	alloDecreaseProductRegisterReserveOperation	Операция УДКЗ. Уменьшение суммы на продуктовом регистре 
+SP-T-DebtWriteOff	Сценарий списание задолженности за счет РВП	dkzOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Просроченная ДЗ по сроку, рассчитанному УДКЗ
+SP-T-DebtWriteOff	Сценарий списание задолженности за счет РВП	dkzSourceProductRepaymentTermOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Просроченная ДЗ по сроку, установленному ПФ
+SP-T-DebtWriteOff	Сценарий списание задолженности за счет РВП	dkzOpenRegisterWriteOffDebitorDebtOperation	Операция УДКЗ. Открытие регистра Списанная ДЗ
+SP-T-DebtWriteOff	Сценарий списание задолженности за счет РВП	dkzWriteOffDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре Списанная ДЗ
+SP-T-DebtWriteOff	Сценарий списание задолженности за счет РВП	dkzCloseRegistersAndRepaymentProductDebitorDebtOperation	Операция УДКЗ. Закрытие регистров ДЗ и НДС и погашение продукта ДЗ
+SP-T-DebtWriteOff	Сценарий списание задолженности за счет РВП	alloCloseProductRegisterReserveOperation	Операция УДКЗ. Закрытие продуктового регистра
+SP-T-DebitorDebtProduct-Settlement	Сценарий урегулирования ДЗ и КЗ	dkzSourceProductRepaymentTermOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Просроченная ДЗ по сроку, установленному ПФ
+SP-T-DebitorDebtProduct-Settlement	Сценарий урегулирования ДЗ и КЗ	dkzDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Дебиторская задолженность
+SP-T-DebitorDebtProduct-Settlement	Сценарий урегулирования ДЗ и КЗ	dkzLoanDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Кредиторская задолженность
+SP-T-DebitorDebtProduct-Settlement	Сценарий урегулирования ДЗ и КЗ	dkzCloseRegistersAndRepaymentProductDebitorDebtOperation	Операция УДКЗ. Закрытие регистров ДЗ и НДС и погашение продукта ДЗ
+SP-T-DebitorDebtProduct-TransferredToAnotherAccount	Сценарий переноса ДЗ на другой счет 	"dkzreserveProductAccounts
+reserveProductAccounts"	Операция УДКЗ. Резервирование счета
+SP-T-DebitorDebtProduct-TransferredToAnotherAccount	Сценарий переноса ДЗ на другой счет 	"dkzDebtOpenReservedAccountOperation
+OpenReservedAccountOperationDto"	Операция УДКЗ. Открытие зарезервированного счета
+SP-T-DebitorDebtProduct-TransferredToAnotherAccount	Сценарий переноса ДЗ на другой счет 	"dkzDebtCancelReservedAccountOperation
+cancelReservedAccount"	Операция УДКЗ. Аннулирование зарезервированного счета
+SP-T-DebitorDebtProduct-TransferredToAnotherAccount	Сценарий переноса ДЗ на другой счет 	dkzOpenRegisterOverdueDebitorDebtOperation	Операция УДКЗ. Открытие регистра Просроченной ДЗ по сроку, рассчитанному УДКЗ
+SP-T-DebitorDebtProduct-TransferredToAnotherAccount	Сценарий переноса ДЗ на другой счет 	dkzOverdueDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре Просроченная ДЗ по сроку, рассчитанному УДКЗ
+SP-T-DebitorDebtProduct-TransferredToAnotherAccount	Сценарий переноса ДЗ на другой счет 	dkzDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Дебиторская задолженность
+SP-T-DebitorDebtProduct-TransferredToAnotherAccount	Сценарий переноса ДЗ на другой счет 	dkzSourceProductRepaymentTermOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Просроченная ДЗ по сроку, установленному ПФ
+SP-T-DebitorDebtProduct-TransferredToAnotherAccount	Сценарий переноса ДЗ на другой счет 	dkzOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Просроченная ДЗ по сроку, рассчитанному УДКЗ
+SP-T-DebitorDebtProduct-TransferredToAnotherAccount	Сценарий переноса ДЗ на другой счет 	dkzCloseRegistersAndRepaymentProductDebitorDebtOperation	Операция УДКЗ. Закрытие регистров ДЗ и НДС и погашение продукта ДЗ
+SP-T-DebitorDebtProduct-Overdue	Сценарий вынос на просрочку ДЗ - Дебиторская задолженность	"dkzreserveProductAccounts
+reserveProductAccounts"	Операция УДКЗ. Резервирование счета
+SP-T-DebitorDebtProduct-Overdue	Сценарий вынос на просрочку ДЗ - Дебиторская задолженность	"dkzDebtOpenReservedAccountOperation
+OpenReservedAccountOperationDto"	Операция УДКЗ. Открытие зарезервированного счета
+SP-T-DebitorDebtProduct-Overdue	Сценарий вынос на просрочку ДЗ - Дебиторская задолженность	"dkzDebtCancelReservedAccountOperation
+cancelReservedAccount"	Операция УДКЗ. Аннулирование зарезервированного счета
+SP-T-DebitorDebtProduct-Overdue	Сценарий вынос на просрочку ДЗ - Дебиторская задолженность	dkzDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Дебиторская задолженность
+SP-T-DebitorDebtProduct-Overdue	Сценарий вынос на просрочку ДЗ - Дебиторская задолженность	dkzSourceProductRepaymentTermOverdueDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре Просроченная ДЗ по сроку, установленному ПФ
+SP-T-MNCommLoanProduct-MNOtnCommResult	УДКЗ. Отнесение комиссии по задолженности на финансовый результат по Методу начисления	dkzLoanDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Кредиторская задолженность
+SP-T-MNCommLoanProduct-MNOtnCommResult	УДКЗ. Отнесение комиссии по задолженности на финансовый результат по Методу начисления	dkzLoanDebtRegisterPhantomVatBalanceOperation	Операция МН. Операция для отнесения на реализацию суммы НДС по КЗ.
+SP-T-MNCommDebtProduct-MNOtnCommResult	УДКЗ. Причисление в доходы по графику, доначисление ДЗ в дату отсутствия оплаты по договору 	"dkzDebtOpenReservedAccountOperation
+OpenReservedAccount"	Операция УДКЗ. Открытие зарезервированного счета
+SP-T-MNCommDebtProduct-MNOtnCommResult	УДКЗ. Причисление в доходы по графику, доначисление ДЗ в дату отсутствия оплаты по договору 	dkzDebitorDebtRegisterIncreaseVatBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре Дебиторская задолженность на сумму НДС
+SP-T-MNCommDebtProduct-MNOtnCommResult	УДКЗ. Причисление в доходы по графику, доначисление ДЗ в дату отсутствия оплаты по договору 	dkzDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре Дебиторская задолженность
+SP-T-MNCommDebtProduct-Overdue	Сценарий Вынос на просрочку ДЗ - Продукт Дебиторская задолженность по комиссии по Методу начисления	"dkzreserveProductAccounts
+reserveProductAccounts"	"
+Операция УДКЗ. Резервирование счета"
+SP-T-MNCommDebtProduct-Overdue	Сценарий Вынос на просрочку ДЗ - Продукт Дебиторская задолженность по комиссии по Методу начисления	"dkzDebtOpenReservedAccountOperation
+OpenReservedAccountOperationDto"	Операция УДКЗ. Открытие зарезервированного счета
+SP-T-MNCommDebtProduct-Overdue	Сценарий Вынос на просрочку ДЗ - Продукт Дебиторская задолженность по комиссии по Методу начисления	"dkzDebtCancelReservedAccountOperation
+cancelReservedAccount"	Операция УДКЗ. Аннулирование зарезервированного счета
+SP-T-MNCommDebtProduct-Overdue	Сценарий Вынос на просрочку ДЗ - Продукт Дебиторская задолженность по комиссии по Методу начисления	dkzOpenRegisterDebitorDebtOperation	Операция УДКЗ. Открытие регистра ДЗ
+SP-T-MNCommDebtProduct-Overdue	Сценарий Вынос на просрочку ДЗ - Продукт Дебиторская задолженность по комиссии по Методу начисления	dkzDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Дебиторская задолженность
+SP-T-MNCommDebtProduct-Overdue	Сценарий Вынос на просрочку ДЗ - Продукт Дебиторская задолженность по комиссии по Методу начисления	dkzSourceProductRepaymentTermOverdueDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре Просроченная ДЗ по сроку, установленному ПФ
+SP-T-MNCommLoanProduct-MNCommLoanHybrid	Сценарий МН. Инициализация гибридной схемы по комиссии МН	dkzDebtReserveProductAccountsOperation	Операция УДКЗ. Резервирование счета
+SP-T-MNCommLoanProduct-MNCommLoanHybrid	Сценарий МН. Инициализация гибридной схемы по комиссии МН	dkzDebtOpenReservedAccountOperation	Операция УДКЗ. Открытие зарезервированного счета
+SP-T-MNCommLoanProduct-MNCommLoanHybrid	Сценарий МН. Инициализация гибридной схемы по комиссии МН	dkzOpenRegisterLoanDebtOperation	Операция УДКЗ. Открытие продуктового регистра кредиторская задолженность
+SP-T-MNCommLoanProduct-MNCommLoanHybrid	Сценарий МН. Инициализация гибридной схемы по комиссии МН	dkzDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре Дебиторская задолженность
+SP-T-MNCommLoanProduct-MNCommLoanHybrid	Сценарий МН. Инициализация гибридной схемы по комиссии МН	dkzLoanDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре Кредиторская задолженность
+SP-T-MNCommLoanProduct-MNCommLoanHybrid	Сценарий МН. Инициализация гибридной схемы по комиссии МН	dkzLoanDebtRegisterDecreaseVatBalanceOperation	Операция МН. Уменьшение суммы на регистре Кредиторская задолженность на сумму НДС
+SP-T-MNCommLoanProduct-CorrectAmount	Корректировка комиссии по Методу начисления - Кредиторская задолженность по комиссии по Методу начисления	dkzReverseSurplusLoanDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Сторно уменьшения суммы на регистре Кредиторская задолженность
+SP-T-MNCommLoanProduct-CorrectAmount	Корректировка комиссии по Методу начисления - Кредиторская задолженность по комиссии по Методу начисления	dkzReverseVatSurplusLoanDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Сторно уменьшения суммы НДС на регистре Кредиторская задолженность
+SP-T-MNCommLoanProduct-CorrectAmount	Корректировка комиссии по Методу начисления - Кредиторская задолженность по комиссии по Методу начисления	dkzReverseVatRealizedSurplusLoanDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Сторно уменьшения суммы НДС Реализованного на регистре Кредиторская задолженность
+SP-T-MNCommLoanProduct-CorrectAmount	Корректировка комиссии по Методу начисления - Кредиторская задолженность по комиссии по Методу начисления	dkzLoanDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Кредиторская задолженность
+SP-T-MNCommLoanProduct-CorrectAmount	Корректировка комиссии по Методу начисления - Кредиторская задолженность по комиссии по Методу начисления	dkzLoanDebtRegisterDecreaseVatBalanceOperation	Операция МН. Уменьшение суммы на регистре Кредиторская задолженность на сумму НДС
+SP-T-MNCommLoanProduct-CorrectAmount	Корректировка комиссии по Методу начисления - Кредиторская задолженность по комиссии по Методу начисления	dkzHybridReverseLoanDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Сторно увеличения суммы на регистре Кредиторская задолженность по гибридной схеме
+SP-T-MNCommLoanProduct-CorrectAmount	Корректировка комиссии по Методу начисления - Кредиторская задолженность по комиссии по Методу начисления	dkzHybridReverseDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Сторно увеличения суммы на регистре Дебиторская задолженность по гибридной схеме
+SP-T-MNCommLoanProduct-CorrectAmount	Корректировка комиссии по Методу начисления - Кредиторская задолженность по комиссии по Методу начисления	dkzReverseDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Сторно уменьшения суммы на регистре Дебиторская задолженность
+SP-T-MNCommLoanProduct-CorrectAmount	Корректировка комиссии по Методу начисления - Кредиторская задолженность по комиссии по Методу начисления	dkzReverseSourceProductRepaymentTermOverdueDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Сторно увеличения суммы на регистре Просроченная ДЗ по сроку, установленному ПФ
+SP-T-MNCommLoanProduct-CorrectAmount	Корректировка комиссии по Методу начисления - Кредиторская задолженность по комиссии по Методу начисления	dkzSourceProductRepaymentTermOverdueDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре Просроченная ДЗ по сроку, установленному ПФ
+SP-T-MNCommLoanProduct-CorrectAmount	Корректировка комиссии по Методу начисления - Кредиторская задолженность по комиссии по Методу начисления	dkzDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Дебиторская задолженность
+SP-T-MNCommDebtProduct-CorrectAmount	Корректировка комиссии по Методу начисления - Дебиторская задолженность по комиссии по Методу начисления	dkzReverseDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Сторно увеличения суммы на регистре Дебиторская задолженность
+SP-T-MNCommDebtProduct-CorrectAmount	Корректировка комиссии по Методу начисления - Дебиторская задолженность по комиссии по Методу начисления	dkzReverseVatDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Сторно увеличения суммы НДС на регистре Дебиторская задолженность
+SP-T-MNCommDebtProduct-CorrectAmount	Корректировка комиссии по Методу начисления - Дебиторская задолженность по комиссии по Методу начисления	dkzReverseDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Сторно уменьшения суммы на регистре Дебиторская задолженность
+SP-T-MNCommDebtProduct-CorrectAmount	Корректировка комиссии по Методу начисления - Дебиторская задолженность по комиссии по Методу начисления	dkzReverseSourceProductRepaymentTermOverdueDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Сторно увеличения суммы на регистре Просроченная ДЗ по сроку, установленному ПФ
+SP-T-MNCommDebtProduct-CorrectAmount	Корректировка комиссии по Методу начисления - Дебиторская задолженность по комиссии по Методу начисления	dkzDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре Дебиторская задолженность
+SP-T-MNCommDebtProduct-CorrectAmount	Корректировка комиссии по Методу начисления - Дебиторская задолженность по комиссии по Методу начисления	dkzDebitorDebtRegisterIncreaseVatBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре Дебиторская задолженность на сумму НДС
+SP-T-MNCommDebtProduct-CorrectAmount	Корректировка комиссии по Методу начисления - Дебиторская задолженность по комиссии по Методу начисления	dkzSourceProductRepaymentTermOverdueDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре Просроченная ДЗ по сроку, установленному ПФ
+SP-T-MNCommDebtProduct-CorrectAmount	Корректировка комиссии по Методу начисления - Дебиторская задолженность по комиссии по Методу начисления	dkzDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Дебиторская задолженность
+SP-T-MNCommDebtProduct-MigrationVat	Доначисление НДС в рамках миграции комиссии продукта ДЗ - Дебиторская задолженность по комиссии по Методу начисления	dkzDebtRegisterIncreaseRemainderTurnover	Увеличение суммы остатка на регистре с оборотом при миграции на сумму НДС - Миграция - ДЗк по МН
+SP-T-MNCommDebtProduct-LoyalCorrectAmount	Корректировка комиссии по Методу начисления (лояльность) - Дебиторская задолженность по комиссии по Методу начисления	dkzReverseDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Сторно увеличения суммы на регистре Дебиторская задолженность
+SP-T-MNCommDebtProduct-LoyalCorrectAmount	Корректировка комиссии по Методу начисления (лояльность) - Дебиторская задолженность по комиссии по Методу начисления	dkzReverseSourceProductRepaymentTermOverdueDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Сторно увеличения суммы на регистре Просроченная ДЗ по сроку, установленному ПФ
+SP-T-MNCommDebtProduct-LoyalCorrectAmount	Корректировка комиссии по Методу начисления (лояльность) - Дебиторская задолженность по комиссии по Методу начисления	dkzPhantomRefundDivisionOperation	Операция УДКЗ. Передача данных о подразделении возврата.
+SP-T-MNCommDebtProduct-RePayMatch	Корректировка комиссии по Методу начисления (переквитовка) - Дебиторская задолженность по комиссии по Методу начисления	dkzReverseDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Сторно уменьшения суммы на регистре Дебиторская задолженность
+SP-T-MNCommDebtProduct-RePayMatch	Корректировка комиссии по Методу начисления (переквитовка) - Дебиторская задолженность по комиссии по Методу начисления	dkzReverseSourceProductRepaymentTermOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Сторно уменьшения суммы на регистре Просроченная ДЗ по сроку, установленному ПФ
+SP-T-MNCommDebtProduct-RePayMatch	Корректировка комиссии по Методу начисления (переквитовка) - Дебиторская задолженность по комиссии по Методу начисления	dkzDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Дебиторская задолженность
+SP-T-MNCommDebtProduct-RePayMatch	Корректировка комиссии по Методу начисления (переквитовка) - Дебиторская задолженность по комиссии по Методу начисления	dkzSourceProductRepaymentTermOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Просроченная ДЗ по сроку, установленному ПФ
+SP-T-DamageDebtProduct-RepaymentExpenses	Сценарий погашение ДЗ за счет расходов. Ущербы/недостачи (ДЗ) до выяснения принадлежности	dkzOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Просроченная ДЗ по сроку, рассчитанному УДКЗ
+SP-T-DamageDebtProduct-RepaymentExpenses	Сценарий погашение ДЗ за счет расходов. Ущербы/недостачи (ДЗ) до выяснения принадлежности	dkzCloseRegistersAndRepaymentProductDebitorDebtOperation	Операция УДКЗ. Закрытие регистров ДЗ и НДС и погашение продукта ДЗ
+SP-T-DamageDebtProduct-RepaymentExpenses	Сценарий погашение ДЗ за счет расходов. Ущербы/недостачи (ДЗ) до выяснения принадлежности	dkzDebtUpdateDummyIncreaseActiveAccountOperation	Операция УДКЗ. Фиктивная операция  увеличения суммы на активном счете-корреспонденте 
+SP-T-ShortageDebtProduct-RepaymentExpenses	Сценарий погашение ДЗ за счет расходов. Ущербы/недостачи (ДЗ) при установлении вины сотрудника	dkzOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Просроченная ДЗ по сроку, рассчитанному УДКЗ
+SP-T-ShortageDebtProduct-RepaymentExpenses	Сценарий погашение ДЗ за счет расходов. Ущербы/недостачи (ДЗ) при установлении вины сотрудника	dkzCloseRegistersAndRepaymentProductDebitorDebtOperation	Операция УДКЗ. Закрытие регистров ДЗ и НДС и погашение продукта ДЗ
+SP-T-ShortageDebtProduct-RepaymentExpenses	Сценарий погашение ДЗ за счет расходов. Ущербы/недостачи (ДЗ) при установлении вины сотрудника	dkzDebtUpdateDummyIncreaseActiveAccountOperation	Операция УДКЗ. Фиктивная операция  увеличения суммы на активном счете-корреспонденте 
+SP-T-loanWriteOff	Сценарий списания кредиторской задолженности на доходы банка	dkzLoanDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Кредиторская задолженность
+SP-T-loanWriteOff	Сценарий списания кредиторской задолженности на доходы банка	dkzLoanDebtRegisterDecreaseWriteOffBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре при списании Кредиторской задолженности
+SP-T-loanWriteOff	Сценарий списания кредиторской задолженности на доходы банка	dkzCloseRegistersAndRepaymentProductLoanDebtOperation	Операция УДКЗ. Закрытие регистров КЗ и погашение продукта КЗ
+SP-T-loanWriteOff	Сценарий списания кредиторской задолженности на доходы банка	dkzDebtUpdateDummyIncreasePassiveAccountOperation	Операция УДКЗ. Фиктивная операция увеличения суммы на пассивном счете-корреспонденте 
+SP-T-DamageAdjustment	Сценарий корректировки ущерба	"dkzreserveProductAccounts
+reserveProductAccounts"	Операция УДКЗ. Резервирование счета
+SP-T-DamageAdjustment	Сценарий корректировки ущерба	"dkzDebtOpenReservedAccountOperation
+OpenReservedAccount"	Операция УДКЗ. Открытие зарезервированного счета
+SP-T-DamageAdjustment	Сценарий корректировки ущерба	"dkzDebtCancelReservedAccountOperation
+cancelReservedAccount"	Операция УДКЗ. Аннулирование зарезервированного счета
+SP-T-DamageAdjustment	Сценарий корректировки ущерба	dkzOverdueDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре Просроченная ДЗ по сроку, рассчитанному УДКЗ
+SP-T-DamageAdjustment	Сценарий корректировки ущерба	dkzReverseOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Сторно уменьшения суммы на регистре Просроченная ДЗ по сроку, рассчитанному УДКЗ
+SP-T-DamageAdjustment	Сценарий корректировки ущерба	dkzReverseOverdueDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Сторно увеличения суммы на регистре Просроченная ДЗ по сроку, рассчитанному УДКЗ
+SP-T-DamageAdjustment	Сценарий корректировки ущерба	dkzCloseRegistersAndRepaymentProductDebitorDebtOperation	Операция УДКЗ. Закрытие регистров ДЗ и НДС и погашение продукта ДЗ
+SP-T-LoanDebtProduct-Repayment	Сценарий погашения КЗ 	dkzLoanDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Кредиторская задолженность
+SP-T-LoanDebtProduct-Repayment	Сценарий погашения КЗ 	BankOfRussiaFixOutOperationType	Списание с корреспонденсткого счета
+SP-T-LoanDebtProduct-Repayment	Сценарий погашения КЗ 	NostroPaymentFixOutOperationType	Списание со счета Ностро
+SP-T-LoanDebtProduct-Repayment	Сценарий погашения КЗ 	LegalSettlementCreditHoldOperation	Операция по установке холда на сумму платежа для увеличения доступного остатка (зачисление на р/счет ЮЛ)
+SP-T-LoanDebtProduct-Repayment	Сценарий погашения КЗ 	LoroRubFixInOperation	Зачисление на счет респондента
+SP-T-DebtProduct-Payment	Сценарий погашения ДЗ	BankOfRussiaFixInOperationType	Зачисление на корреспондентский счет
+SP-T-DebtProduct-Payment	Сценарий погашения ДЗ	LoroRubFixOutOperation	Списание со счета Респондента
+SP-T-DebtProduct-Payment	Сценарий погашения ДЗ	NostroPaymentFixInOperationType	Зачисление на счет Ностро
+SP-T-DebtProduct-Payment	Сценарий погашения ДЗ	LegalSettlementDebitHoldOperation	Операция по установке холда на сумму платежа для уменьшения доступного остатка (списание с р/счета ЮЛ)
+SP-T-DebtProduct-Payment	Сценарий погашения ДЗ	dkzDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Дебиторская задолженность
+SP-T-DebtProduct-Payment	Сценарий погашения ДЗ	dkzOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Просроченная ДЗ по сроку, рассчитанному УДКЗ
+SP-T-DebtProduct-Payment	Сценарий погашения ДЗ	dkzSourceProductRepaymentTermOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Просроченная ДЗ по сроку, установленному ПФ
+SP-T-DebtProduct-Payment	Сценарий погашения ДЗ	dkzOpenRegisterLoanDebtOperation	Операция УДКЗ. Открытие продуктового регистра кредиторская задолженность
+SP-T-DebtProduct-Payment	Сценарий погашения ДЗ	dkzLoanDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре кредиторская задолженность
+SP-T-DebtProduct-Payment	Сценарий погашения ДЗ	dkzWriteOffDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Списанная ДЗ
+SP-T-DebtProduct-Payment	Сценарий погашения ДЗ	dkzIncomeAccount	Отражение доходов по погашению ДЗ, списанной на внебаланс
+SP-T-DebtProduct-Payment	Сценарий погашения ДЗ	dkzCloseRegistersAndRepaymentProductDebitorDebtOperation	Операция УДКЗ. Закрытие регистров ДЗ и НДС и погашение продукта ДЗ
+SP-T-CorrectionDebtWriteOff	Сценарий корректировки списания ДЗ за счет РВП	"dkzreserveProductAccounts
+reserveProductAccounts"	Операция УДКЗ. Резервирование счета
+SP-T-CorrectionDebtWriteOff	Сценарий корректировки списания ДЗ за счет РВП	"dkzDebtOpenReservedAccountOperation
+OpenReservedAccount"	Операция УДКЗ. Открытие зарезервированного счета
+SP-T-CorrectionDebtWriteOff	Сценарий корректировки списания ДЗ за счет РВП	"dkzDebtCancelReservedAccountOperation
+cancelReservedAccount"	Операция УДКЗ. Аннулирование зарезервированного счета
+SP-T-CorrectionDebtWriteOff	Сценарий корректировки списания ДЗ за счет РВП	alloOpenProductRegisterReserveOperation	Операция УДКЗ. Открытие продуктового регистра
+SP-T-CorrectionDebtWriteOff	Сценарий корректировки списания ДЗ за счет РВП	dkzReverseOverdueDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Сторно уменьшения суммы на регистре Просроченная ДЗ по сроку, рассчитанному УДКЗ
+SP-T-CorrectionDebtWriteOff	Сценарий корректировки списания ДЗ за счет РВП	alloIncreaseProductRegisterReserveOperation	Операция УДКЗ. Увеличение суммы на продуктовом регистре 
+SP-T-CorrectionDebtWriteOff	Сценарий корректировки списания ДЗ за счет РВП	dkzReverseWriteOffDebitorDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Сторно увеличения суммы на регистре Списанная ДЗ
+SP-T-CorrectionDebtWriteOff	Сценарий корректировки списания ДЗ за счет РВП	dkzCancelRegisterAndReverseDebitorDebtProductOperation	Операция УДКЗ. Закрытие регистров и сторно продукта ДЗ
+SP-T-CorrectionLoanWriteOff	Сценарий корректировки списания КЗ на доходы банка	"dkzreserveProductAccounts
+reserveProductAccounts"	Операция УДКЗ. Резервирование счета
+SP-T-CorrectionLoanWriteOff	Сценарий корректировки списания КЗ на доходы банка	"dkzDebtOpenReservedAccountOperation
+OpenReservedAccount"	Операция УДКЗ. Открытие зарезервированного счета
+SP-T-CorrectionLoanWriteOff	Сценарий корректировки списания КЗ на доходы банка	"dkzDebtCancelReservedAccountOperation
+cancelReservedAccount"	Операция УДКЗ. Аннулирование зарезервированного счета
+SP-T-CorrectionLoanWriteOff	Сценарий корректировки списания КЗ на доходы банка	dkzReverseSurplusLoanDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Сторно уменьшения суммы на регистре Кредиторская задолженность
+SP-T-CorrectionLoanWriteOff	Сценарий корректировки списания КЗ на доходы банка	dkzDebtUpdateDummyDecreasePassiveAccountOperation	Операция УДКЗ. Фиктивная операция уменьшения суммы на пассивном счете-корреспонденте 
+SP-T-ReserveProductOffshore-OffshoreReserveCalculation	Сценарий РР. Расчет резерва офшоров	"alloOpenProductRegisterReserveOperation
+(OpenAccountOperationDto)"	Операция УДКЗ. Открытие продуктового регистра
+SP-T-ReserveProductOffshore-OffshoreReserveCalculation	Сценарий РР. Расчет резерва офшоров	alloIncreaseProductRegisterReserveOperation	Операция УДКЗ. Увеличение суммы на продуктовом регистре 
+SP-T-ReserveProductOffshore-OffshoreReserveCalculation	Сценарий РР. Расчет резерва офшоров	alloDecreaseProductRegisterReserveOperation	Операция УДКЗ. Уменьшение суммы на продуктовом регистре 
+SP-T-ReserveProductOffshore-OffshoreReserveCalculation	Сценарий РР. Расчет резерва офшоров	alloCloseProductRegisterReserveOperation	Операция УДКЗ. Закрытие продуктового регистра
+SP-T-LoanAdjustment	Сценарий корректировки кредиторской задолженности	"dkzreserveProductAccounts
+reserveProductAccounts"	Операция УДКЗ. Резервирование счета
+SP-T-LoanAdjustment	Сценарий корректировки кредиторской задолженности	"dkzDebtOpenReservedAccountOperation
+OpenReservedAccount"	Операция УДКЗ. Открытие зарезервированного счета
+SP-T-LoanAdjustment	Сценарий корректировки кредиторской задолженности	"dkzDebtCancelReservedAccountOperation
+cancelReservedAccount"	Операция УДКЗ. Аннулирование зарезервированного счета
+SP-T-LoanAdjustment	Сценарий корректировки кредиторской задолженности	dkzReverseSurplusLoanDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Сторно увеличения суммы на регистре Кредиторская задолженность
+SP-T-LoanAdjustment	Сценарий корректировки кредиторской задолженности	dkzLoanDebtRegisterIncreaseBalanceOperation	Операция УДКЗ. Увеличение суммы на регистре кредиторская задолженность
+SP-T-LoanAdjustment	Сценарий корректировки кредиторской задолженности	dkzCloseRegistersAndRepaymentProductLoanDebtOperation	Операция УДКЗ. Закрытие регистров КЗ и погашение продукта КЗ
+SP-T-WriteOffDebtOffBalance	Списание задолженности с внебаланса	dkzWriteOffDebitorDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Списанная ДЗ
+SP-T-WriteOffDebtOffBalance	Списание задолженности с внебаланса	dkzCloseRegistersAndRepaymentProductDebitorDebtOperation	Операция УДКЗ. Закрытие регистров ДЗ и НДС и погашение продукта ДЗ
+SP-T-MNCommLoanProduct-MNOtnCommAltResult	УДКЗ. Отнесение комиссии по задолженности на финансовый результат в переходный период по Методу начисления	dkzLoanDebtRegisterDecreaseBalanceOperation	Операция УДКЗ. Уменьшение суммы на регистре Кредиторская задолженность
+SP-T-MNCommLoanProduct-MNOtnCommAltResult	УДКЗ. Отнесение комиссии по задолженности на финансовый результат в переходный период по Методу начисления	dkzLoanDebtRegisterPhantomVatBalanceOperation	 Операция УДКЗ. Операция для отнесения на реализацию суммы НДС по КЗ
+SP-T-MNCommLoanProduct-MNOtnCommAltResult	УДКЗ. Отнесение комиссии по задолженности на финансовый результат в переходный период по Методу начисления	dkzLoanDebtRegisterDecreaseVatBalanceOperation	 Операция УДКЗ. Уменьшение суммы на регистре Кредиторская задолженность. Допризнание НДС
+dkzCloseRegisterService	Сервис УДКЗ. Закрытие регистра	dkzCloseRegistersAndRepaymentProductDebitorDebtOperation	Операция УДКЗ. Закрытие регистров ДЗ и НДС и погашение продукта ДЗ
+dkzCloseRegisterService	Сервис УДКЗ. Закрытие регистра	dkzCloseRegistersAndRepaymentProductLoanDebtOperation	Операция УДКЗ. Закрытие регистров КЗ и погашение продукта КЗ
